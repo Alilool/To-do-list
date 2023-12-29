@@ -24,7 +24,7 @@ function doneTask(taskElement) {
     newTask.innerHTML = '<div class="li-content">' + taskElement.parentNode.parentNode.querySelector('.li-content').textContent + '</div>' +
         '<div class="buttons">' +
         '<button onclick="restore(this)" class="buttons-hover" id="restore">Restore</button>' +
-        '<button onclick="removeFinishedTask(this)" id="delete-finished">Delete</button>'
+        '<button onclick="removeFinishedTask(this)" class="buttons-hover" id="delete-finished">Delete</button>'
     '</div>';
     finishedList.appendChild(newTask);
     removeTask(taskElement);
@@ -39,8 +39,8 @@ function restore(taskElement) {
     let newTask = document.createElement("li");
     newTask.innerHTML = '<div class="li-content">' + taskElement.parentNode.parentNode.querySelector(".li-content").textContent + '</div>' +
         '<div class="buttons">' +
-        '<button onclick="doneTask(this)" id="done">Done</button>' +
-        '<button onclick="removeTask(this)" id="delete">Delete</button>' +
+        '<button onclick="doneTask(this)" class="buttons-hover" id="done">Done</button>' +
+        '<button onclick="removeTask(this)" class="buttons-hover" id="delete">Delete</button>' +
         '</div>';
     todoList.appendChild(newTask);
     removeTask(taskElement);
