@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgb(9, 51, 122);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: rgb(167, 202, 255);
+    border: solid 5px;
+    border-radius: 20px;
+    background-color: rgb(43, 107, 155);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.finishedTitle {
+    margin-top: 90px;
+}
+
+.addButton {
+    padding: 4px 15px;
+    margin: 20px;
+    margin-top: 0;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(42, 80, 146);
+    color: white;
+    transition: 0.7s ease;
+}
+
+.addButton:hover {
+    background-color: rgb(17, 110, 182);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#input {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 20px 30px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(17, 110, 182);
+}
+
+.checkbox {
+    margin-right: 12px;
+}
+
+.li-content {
+    background-color: rgb(17, 110, 182);
+    display: flex;
+    align-items: center;
+}
+
+#delete {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 4px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#restore {
+    background-color: rgb(10, 68, 184);
+    color: white;
+    border: none;
+    padding: 4px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.buttons-hover {
+    transition: 0.7s ease;
+}
+
+.buttons-hover:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#delete-finished {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 4px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.buttons {
+    background-color: rgb(17, 110, 182);
+    margin-bottom: 4px;
+}
+
+#done {
+    background-color: rgb(26, 189, 83);
+    color: white;
+    border: none;
+    padding: 4px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+hr {
+    border-color: rgb(167, 202, 255);
+    margin: 10px 0 30px 0;
+}
+
+.finishedTasks-hr {
+    margin-top: 40px;
+}
+
+li {
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
