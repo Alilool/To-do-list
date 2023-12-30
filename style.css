@@ -66,11 +66,9 @@ li {
     color: white;
     border-radius: 20px;
     background-color: rgb(17, 110, 182);
+    overflow-x: auto;
 }
 
-.checkbox {
-    margin-right: 12px;
-}
 
 .li-content {
     background-color: rgb(17, 110, 182);

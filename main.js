@@ -47,8 +47,8 @@ function addTask() {
             taskInput.value +
             '</div>' +
             '<div class="buttons">' +
-            '<button onclick="doneTask(this)" id="done">Done</button>' +
-            '<button onclick="removeTask(this)" id="delete">Delete</button>' +
+            '<button onclick="doneTask(this)" class="buttons-hover" id="done">Done</button>' +
+            '<button onclick="removeTask(this)" class="buttons-hover" id="delete">Delete</button>' +
             '</div>';
         todoList.appendChild(newTask);
         taskInput.value = "";
