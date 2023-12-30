@@ -35,7 +35,7 @@ function loadFinishedTasks() {
 
 function saveFinishedTasks() {
     // Save finished tasks to local storage
-    localStorage.setItem("finishedTasks", fi.innerHTML);
+    localStorage.setItem("finishedTasks", finishedList.innerHTML);
 }
 
 function addTask() {
