@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -54,27 +53,34 @@ h1 {
 
 ul {
     list-style-type: none;
+    overflow-x: auto;
 }
 
 li {
+    margin: auto;
+    font-size: 1.2em;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    margin: 20px 30px;
     padding: 10px 30px;
     color: white;
     border-radius: 20px;
     background-color: rgb(17, 110, 182);
-    overflow-x: auto;
-}
+    min-width: 0;
+    width: fit-content;
 
+    /* Minimum width */
+}
 
 .li-content {
     background-color: rgb(17, 110, 182);
     display: flex;
     align-items: center;
 }
+
+/* ... (rest of the CSS code) */
 
 #delete {
     background-color: brown;
@@ -120,6 +126,7 @@ li {
 .buttons {
     background-color: rgb(17, 110, 182);
     margin-bottom: 4px;
+    margin-left: 20px;
 }
 
 #done {
@@ -142,9 +149,4 @@ hr {
     margin-top: 40px;
 }
 
-li {
-    max-width: 500px;
-    margin: auto;
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
+@media (max-width: 500px) {}
